@@ -22,7 +22,9 @@ format:
 refactor: format lint
 
 lint:
-	find . -type f -name "*.py" \
-	 | xargs pylint --disable=R,C --ignore-patterns=test_.*?py 
+	pylint --disable=R,C *.py
+
+#lint:
+#	find . -type f -name "*.py" | xargs pylint --disable=R,C --ignore-patterns=test_.*?py 
 
 all: install lint test
