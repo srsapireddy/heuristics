@@ -30,32 +30,6 @@ conda init bash
 * dijkstra shortest path
 * merge sort
 
-## Equations
-
-### David Sumpter's 10 Equations
-
-* Judgment Equation:  Bayes
-* Betting Equation
-* Confidence Equation
-* Skill Equation:  Markov
-* Influencer Equation
-* Market Equation
-* Advertising Equation
-* Reward Equation
-* Learning Equation
-* Universal Equation
-
-
-## Week 2 algo translations 
-
-* Using advanced features of copilot labs to translate algo
-
-### Languages installed via .devcontainer and verified can translate
-
-* Ruby
-* Rust
-
-
 ## Week 1
 
 * [command-line tool that accepts arbitrary cities and finds shortest path using greedy random similuations](https://github.com/nogibjj/heuristics/blob/main/fetch_cities_lat_long.py)
